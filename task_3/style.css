@@ -1,0 +1,66 @@
+.wrapper {
+  width: 505px;
+  display: flex;
+  justify-content: space-between;
+ }
+.btn-send, .btn-location {
+  padding: 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  margin: 5px 5px;
+  padding: 11px 15px;
+  font-size: 15px;
+  line-height: 15px;
+  background: #bad7ec;
+  transition: 0.3s;
+}
+.enter_message {
+  width: 230px;
+  margin: 5px 5px;
+  border: 4px solid #bad7ec;
+  padding: 7px;
+ }
+.mail-window {
+  width: 490px;
+  height: 400px;
+  margin-top: 10px;
+  margin-left: 5px;
+  border: 4px solid #bad7ec;
+  overflow-y: scroll;
+  display: flex;
+ flex-wrap: nowrap;
+ flex-direction: column;
+}
+
+.mail-window .client-message {
+  /*clear: both;*/
+  align-self: flex-end;
+  margin: 5px;
+  padding: 10px;
+  border: 4px solid #bad7ec;
+  color: green;
+  border-radius: 10px;
+}
+
+.mail-window .server-message {
+  align-self: flex-start;
+  color: red;
+  margin: 5px;
+  padding: 10px;
+  border: 4px solid #bad7ec;
+  border-radius: 10px;
+}
+
+.mail-window > div {
+max-width: 80%;
+padding: 5px 10px;
+margin: 5px 0;
+border-radius: 3px;
+color: #fff;
+}
+
+.geo-message > a {
+color: orange;
+}
